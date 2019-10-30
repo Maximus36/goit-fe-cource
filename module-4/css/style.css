@@ -1,9 +1,9 @@
 *{
-    margin: 0;
-    padding: 0;
+margin: 0;
+padding: 0;
 }
 
-.wrapper{
+.wrapper {
 width: 1170;
 margin: 0 auto;
 padding: 0px 30px;
@@ -62,13 +62,12 @@ font: 300 30px/32px 'Roboto', sans-serif;
 }
 
 .header {
-padding: 45px 75px 111px 35px;
+padding: 45px 30px 111px 35px;
 }
 
 .products {
 margin-bottom: 63px;
 }
-
 
 .products h2,
 .news h2 {
