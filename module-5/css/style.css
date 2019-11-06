@@ -4,131 +4,139 @@
 }
 
 img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+display: block;
+max-width: 100%;
+height: auto;
+margin: auto;
 }
 
 .container {
-    width: 1110px;
-    margin: 0 auto;
+width: 1110px;
+margin: 0 auto;
 }
 
 header,
 .products,
 .slider,
 .add-to-cart {
-    text-transform: uppercase;
+text-transform: uppercase;
 }
 
 header li,
 .products li,
 .slider li {
-    list-style-type: none;
+list-style-type: none;
 }
 
 header a,
 .slider a,
 .products a {
-    text-decoration: none;
-    display: block;
+text-decoration: none;
+display: block;
 }
 
 .prev,
 .next,
 .box-product button {
-    cursor: pointer;
-    border: none;
-    background: none;
+cursor: pointer;
+border: none;
+background: none;
 }
 
 .header {
-    padding: 30px 0 27px;
+padding: 30px 0 27px;
 }
 
 .logo {
-    float: left;
-    font: 300 30px/32px 'Roboto', sans-serif;
+float: left;
+font: 300 30px/32px 'Roboto', sans-serif;
 }
 
 .logo a {
-    color: #555252;
+color: #555252;
 }
 
 header .logo::first-letter {
-    font-weight: 900;
-    color: #1abc9c;
+font-weight: 900;
+color: #1abc9c;
 }
 
 .navigation {
-    float: right;
-    font: 700 14px/32px 'Open Sans', sans-serif;
+float: right;
+font: 700 14px/32px 'Open Sans', sans-serif;
 }
 
 .navigation li {
-    float: left;
-    margin-right: 30px;
+float: left;
+margin-right: 30px;
 }
 
 .navigation a {
-    color: #0f0101;
+color: #0f0101;
 }
 
 .navigation li:last-child {
-    margin-right: 0;
+margin-right: 0;
 }
 
 .navigation a:hover {
-    color: #1abc9c;
+color: #1abc9c;
 }
 
 .slider {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    color: #fff;
+position: relative;
+width: 100%;
+height: 100%;
+color: #fff;
 }
 
 .slide::before{
-    content: "";
-    display: block;
-    background-color: rgba(0, 0, 0, .5);
-    width: 100%;
-    height: 100%;
-    position: absolute;
+content: "";
+display: block;
+background-color: rgba(0, 0, 0, .5);
+width: 100%;
+height: 100%;
+position: absolute;
 }
 
 .buttons {
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 5;
+height: 100%;
+position: absolute;
+top: 0;
+left: 50%;
+transform: translateX(-50%);
+z-index: 5;
 }
 
-.prev,
-.next {
-    font-size: 100px;
-    color: #fff;
-    background-color: #1abc9c;
-    opacity: 0.65;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+.slider-ctrl{
+width: 104px;
+height: 104px;
+color: #fff;
+background-color: #1abc9c;
+opacity: 0.65;
+border: none;
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+margin-right: auto;
+scroll-margin-right: auto;
 }
 
-.prev:hover,
-.next:hover {
-    opacity: 1;
+.slider-ctrl-prev:hover,
+.slider-ctrl-next:hover {
+opacity: 1;
 }
 
-.prev {
-    left: 0;
+.slider-ctrl-prev {
+left: 0;
 }
 
-.next {
-    right: 0;
+.slider-ctrl-next {
+right: 0;
+}
+
+.img-ctrl{
+margin: auto;
 }
 
 .slide {
@@ -263,53 +271,52 @@ header .logo::first-letter {
 
 .icons li:nth-child(-n+3),
 .cart button {
-    width: 50px;
+width: 50px;
 }
 
 .icons li:nth-child(-n+3) {
-    display: inline-block;
-    margin: 0 6px 7px 0;
+display: inline-block;
+margin: 0 6px 7px 0;
 }
 
 .icons li:nth-last-child(2) {
-    margin-right: 0;
+margin-right: 0;
 }
 
 .icons li:nth-child(-n+3):hover {
-    background-color: #1abc9c;
-    border: none;
+background-color: #1abc9c;
+border: none;
 }
 
 .cart {
-    background-color: #323232;
+background-color: #323232;
 }
 
 .cart button,
 .add-to-cart {
-    float: left;
+float: left;
 }
 
 .add-to-cart {
-    font: 400 14px/50px 'Open Sans', sans-serif;
-    padding-left: 10px;
-    width: 108px;
+font: 400 14px/50px 'Open Sans', sans-serif;
+padding-left: 10px;
 }
 
 .footer {
-    background-color: #323232;
-    padding: 30px 0 32px;
-    font: 400 16px/28px 'Open Sans', sans-serif;
-    text-align: center;
-    color: #fefefe;
+background-color: #323232;
+padding: 30px 0 32px;
+font: 400 16px/28px 'Open Sans', sans-serif;
+text-align: center;
+color: #fefefe;
 }
 
 .footer a {
-    color: #46bfa9;
-    text-decoration: none;
+color: #46bfa9;
+text-decoration: none;
 }
 
 .clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
+content: "";
+display: table;
+clear: both;
 }
