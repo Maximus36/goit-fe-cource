@@ -155,30 +155,108 @@
     border-radius: 25px;
     }
     
-    @media (min-width: 960px) {
-        .container {
-        max-width: 960px;
-        }
-        
-        .title-section {
-        padding: 68px 0 30px;
-        }
-        
-        .list-partners {
-        justify-content: space-between;
-        }
-        
-        .partner {
-        margin-bottom: 35px;
-        }
-        
-        }
+    @media (max-width: 767px) {
+    .navigation {
+    justify-content: center;
+    padding: 20px 0 110px;
+    }
     
-
+    .logo {
+        padding-bottom: 24px;
+    }
     
-    @media (min-width: 690px) and (max-width: 959px) {
+    .content-header-box {
+    padding-bottom: 136px;
+    }
+    
+    .title-header {
+        font: 700 30px/36px 'Montserrat', sans-serif;
+    }
+    
+    .description {
+    margin: 0 auto;
+    font: 300 18px/22px 'Roboto', sans-serif;
+     width: 220px;
+    padding: 9px 0 14px;
+    }
+    
+    .title-section {
+    padding: 66px 10px 15px;
+    }
+    
+    .partner {
+    margin-bottom: 26px;
+    }
+    .list-partners {
+    justify-content: center;
+    }
+    
+    .order-1 {
+    order: 1;
+    }
+    
+    .order-2 {
+    order: 3;
+    }
+    
+    .order-3 {
+    order: 2;
+    }
+    
+    .order-4 {
+    order: 4;
+    }
+    }
+    
+    @media (min-width: 768px) {
+    .container {
+    width: 703px;
+    }
+    
+    .navigation-box {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 38px 0 136px;
+    }
+    
+    .content-header-box {
+    width: 503px;
+    margin: 0 auto;
+    padding-bottom: 234px;
+    }
+    
+    .title-header {
+    font: 700 52px/62px 'Montserrat', sans-serif;
+    }
+    .description {
+    font: 300 24px/29px 'Roboto', sans-serif;
+    padding: 23px 0 34px;
+    }
+    
+    .find-partner {
+    width: 230px;
+    margin: 0 auto;
+    }
+    
+    .title-section {
+    padding: 70px 0 30px;
+    }
+    
+    .list-partners {
+    justify-content: space-around;
+    }
+    
+    .more-partners {
+    width: 190px;
+    margin: 0 auto;
+    }
+    
+    }
+    
+    @media (min-width: 768px) and (max-width: 1439px) {
     .partners.container {
-    max-width: 472px;
+    width: 550px;
     }
     
     .partner {
@@ -189,103 +267,22 @@
     margin-bottom: 35px;
     }
     }
-
-    @media (min-width: 690px) {
-        .container {
-        max-width: 625px;
-        }
-        
-        .navigation-box {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        padding: 38px 0 136px;
-        }
-        
-        .content-header-box {
-        width: 503px;
-        margin: 0 auto;
-        padding-bottom: 234px;
-        }
-        
-        .title-header {
-        font: 700 52px/62px 'Montserrat', sans-serif;
-        }
-        .description {
-        font: 300 24px/29px 'Roboto', sans-serif;
-        padding: 23px 0 34px;
-        }
-        
-        .find-partner {
-        width: 230px;
-        margin: 0 auto;
-        }
-        
-        .title-section {
-        padding: 70px 0 30px;
-        }
-        
-        .list-partners {
-        justify-content: space-around;
-        }
-        
-        .more-partners {
-        width: 190px;
-        margin: 0 auto;
-        }
-        
-        }
     
-    @media (max-width: 689px) {
-        .navigation {
-        justify-content: center;
-        padding: 20px 0 110px;
-        }
-        
-        .logo {
-            padding-bottom: 24px;
-        }
-        
-        .content-header-box {
-        padding-bottom: 136px;
-        }
-        
-        .title-header {
-            font: 700 30px/36px 'Montserrat', sans-serif;
-        }
-        
-        .description {
-        margin: 0 auto;
-        font: 300 18px/22px 'Roboto', sans-serif;
-         width: 220px;
-        padding: 9px 0 14px;
-        }
-        
-        .title-section {
-        padding: 66px 10px 15px;
-        }
-        
-        .partner {
-        margin-bottom: 26px;
-        }
-        .list-partners {
-        justify-content: center;
-        }
-        
-        .order-1 {
-        order: 1;
-        }
-        
-        .order-2 {
-        order: 3;
-        }
-        
-        .order-3 {
-        order: 2;
-        }
-        
-        .order-4 {
-        order: 4;
-        }
-        }
+    @media (min-width: 1440px) {
+    .container {
+    width: 970px;
+    }
     
+    .title-section {
+    padding: 68px 0 30px;
+    }
+    
+    .list-partners {
+    justify-content: space-between;
+    }
+    
+    .partner {
+    margin-bottom: 35px;
+    }
+    
+    }
